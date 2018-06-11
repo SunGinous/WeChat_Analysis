@@ -102,12 +102,12 @@ statistic = [0,0,0,0]
 for i in range(len(chat_content)):
     for j in range(len(pattern_set)):
         length = len(re.findall(pattern_set[j], str(chat_content[i])))
-        static[j] += length
+        statistic[j] += length
 result = {
-        '爱': static[0],
-        '早安': static[1],
-        '晚安': static[2],
-        '想你': static[3]
+        '爱': statistic[0],
+        '早安': statistic[1],
+        '晚安': statistic[2],
+        '想你': statistic[3]
         }
 print(result)
 end = datetime.datetime.now()
