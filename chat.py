@@ -94,7 +94,7 @@ print('\n.......................\n聊天时段统计结束\n....................
 print('\n..........\n开始字符统计\n............\n')
 start = datetime.datetime.now()
 pattern_love = '.*?(爱).*?'
-pattern_morning= '.*?(早安).*?'
+pattern_morning = '.*?(早安).*?'
 pattern_night = '.*?(晚安).*?'
 pattern_miss = '.*?(想你).*?'
 pattern_set = [pattern_love, pattern_morning, pattern_night, pattern_miss]
